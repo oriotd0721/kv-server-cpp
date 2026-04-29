@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmake ..)",
+      "Bash(where cmake *)",
+      "Bash(cmake --version)",
+      "Bash(where g++)",
+      "Bash(where cl *)",
+      "Bash(where make *)",
+      "Bash(where mingw32-make *)",
+      "Bash(cmake --help)",
+      "Bash(where ninja *)",
+      "Bash(where msbuild *)",
+      "Read(//c/Program Files/Microsoft Visual Studio//**)",
+      "Read(//c/Program Files \\(x86\\)/Microsoft Visual Studio/**)",
+      "Bash(cmake -S \"c:/Users/OO40207/cpp-key-value-store\" -B \"c:/Users/OO40207/cpp-key-value-store/build2\" -G \"Visual Studio 18 2026\")",
+      "Bash(\"c:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/MSBuild.exe\" \"c:/Users/OO40207/cpp-key-value-store/build2/cpp_key_value_store.sln\" /p:Configuration=Release /nologo /v:minimal)",
+      "PowerShell(& \"C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\MSBuild\\\\Current\\\\Bin\\\\MSBuild.exe\" \"C:\\\\Users\\\\OO40207\\\\cpp-key-value-store\\\\build2\\\\cpp_key_value_store.sln\" /p:Configuration=Release /nologo /v:minimal)",
+      "PowerShell(& \"C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\MSBuild\\\\Current\\\\Bin\\\\MSBuild.exe\" \"C:\\\\Users\\\\OO40207\\\\cpp-key-value-store\\\\build2\\\\server.vcxproj\" /p:Configuration=Release /nologo /v:minimal)"
+    ]
+  }
+}
