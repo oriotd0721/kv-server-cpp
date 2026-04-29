@@ -2,7 +2,7 @@
 
 A multithreaded in-memory key-value server written in C++17, built from scratch using raw Winsock TCP sockets. Conceptually similar to a minimal Redis — one shared store, multiple concurrent clients, clean text protocol.
 
-Personal project, developed independently, inspired by topics covered in the Cryptography and Security courses at the University of Geneva (networking, concurrency, shared mutable state).
+Personal project, developed independently, inspired by topics covered in theOperating System course at the University of Geneva (networking, concurrency, shared mutable state).
 
 ---
 
